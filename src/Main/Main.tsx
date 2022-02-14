@@ -11,7 +11,7 @@ export const Main: VoidFunctionComponent = () => {
     }, [])
     return <>
         <img src={logo} className="App-logo" alt="logo"/>
-        <p>
+        <p data-testid="readout">
             There are <code>{count}</code> words on this page.
         </p>
         <Link
